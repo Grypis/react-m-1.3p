@@ -1,5 +1,6 @@
 import { ForbesListItem } from "components/ForbesListItem/ForbesListItem";
 import style from "./ForbesList.module.css";
+
 export const ForbesList = ({ list }) => {
   return (
     <div className={style.board}>
